@@ -57,8 +57,7 @@ export const products: Product[] = [
     category: 'stairs',
     categoryLabel: '楼梯',
     description: '适合复式、阁楼、商铺空间，节省占地，强调金属线条感。',
-    image:
-      'https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=85',
+    image: '/images/shengbu-spiral-staircase.png',
     tags: ['旋转楼梯', '铁艺扶手', '空间定制'],
   },
   {
