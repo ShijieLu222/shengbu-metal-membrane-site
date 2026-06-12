@@ -13,10 +13,25 @@
 
 ## 已参考的公开页面
 
+- 山东天硕帽顶式膜结构车棚: https://www.168mjg.com/tingchepeng/32.html
+- 山东天硕膜结构自行车棚: https://www.168mjg.com/tingchepeng/33.html
+- 临朐荣丰铁艺大门/护栏/电动伸缩门: https://www.lqrongfeng.com/product_article.asp?id=1810
 - WilliamArchi Car Parking Canopy: https://www.williamarchi.com/product/car-parking-canopy.html
 - BDiR Membrane Parking Shade Article: https://www.bdir.com/es/noticias/las-caracteristicas-basicas-y-ventajas-de-estructura-membrana-sombra-de-estacionamiento
 - Pinterest Bicycle Parking Shelter Reference: https://au.pinterest.com/pin/bicycle-parking-design-with-awning--422281211880503/
 - Pinterest Wrought Iron Stair Railing Reference: https://www.pinterest.com/cerrajeriaforjametal/pasamanos/
+- Alibaba Spiral Wrought Iron Staircase: https://www.alibaba.com/showroom/spiral-wrought-iron-staircase.html
+- Alibaba Wrought Iron Step Ladder: https://www.alibaba.com/showroom/wrought-iron-step-ladder.html
+- 中国制造网铁艺大门参考: https://3g.made-in-china.com/gongying/rongyao-gz18-oKAELjlxHThO.html
+
+## 当前页面临时图片说明
+
+`src/data/products.ts` 中部分图片来自公开产品页面，仅用于本地设计和版式参考。正式商用上线前，建议替换为以下来源之一：
+
+- 公司自有实拍图。
+- 供应商明确授权使用的案例图。
+- 可商用图库素材，并保留授权凭证。
+- 由自家案例图或授权参考图重新拍摄/制作的图片。
 
 ## 替换素材建议
 

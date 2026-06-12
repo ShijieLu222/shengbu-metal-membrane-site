@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { companyProfile } from '../data/company';
 
 const metrics = [
+  { value: '20+', label: '多年行业经验' },
   { value: '7+', label: '主营品类' },
   { value: '1站式', label: '测量设计安装' },
-  { value: '本地化', label: '快速沟通施工' },
 ];
 
 const featureIcons = [

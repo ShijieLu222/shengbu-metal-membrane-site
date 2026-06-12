@@ -4,7 +4,7 @@ import { SectionHeading } from './SectionHeading';
 
 export function ContactSection() {
   const contactItems = [
-    { label: '电话', value: companyProfile.phone, icon: Phone },
+    { label: '联系电话', value: companyProfile.phone, icon: Phone },
     { label: '微信', value: companyProfile.wechat, icon: MessageCircle },
     { label: '地址', value: companyProfile.address, icon: MapPin },
   ];
@@ -15,7 +15,7 @@ export function ContactSection() {
         <SectionHeading
           eyebrow="Contact"
           title="把尺寸和现场照片发来，先沟通方案"
-          description="这里先放联系方式占位。拿到真实电话、微信、地址和二维码后，替换数据文件即可更新全站。"
+          description="可先发送现场照片、尺寸、安装位置和期望样式，我们根据场地情况沟通膜结构、楼梯、大门、栏杆等定制方案。"
         />
 
         <div className="border border-ink/10 bg-white p-6">
@@ -33,7 +33,7 @@ export function ContactSection() {
             ))}
           </div>
           <a
-            href="tel:"
+            href="tel:13341923292"
             className="mt-6 inline-flex w-full items-center justify-center bg-ink px-5 py-3 text-sm font-semibold text-paper transition hover:bg-graphite"
           >
             立即咨询
