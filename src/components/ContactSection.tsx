@@ -6,7 +6,8 @@ export function ContactSection() {
   const contactItems = [
     { label: '联系电话', value: companyProfile.phone, icon: Phone },
     { label: '微信', value: companyProfile.wechat, icon: MessageCircle },
-    { label: '地址', value: companyProfile.address, icon: MapPin },
+    { label: '工厂地址', value: companyProfile.factoryAddress, icon: MapPin },
+    { label: '门店展厅', value: companyProfile.showroomAddress, icon: MapPin },
   ];
 
   return (

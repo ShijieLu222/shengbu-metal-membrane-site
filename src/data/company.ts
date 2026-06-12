@@ -1,14 +1,15 @@
 import { BadgeCheck, Factory, Hammer, ShieldCheck } from 'lucide-react';
 
 export const companyProfile = {
-  name: '上海胜步铁艺膜结构',
+  name: '上海胜步楼梯有限公司',
   shortName: '胜步铁艺',
-  slogan: '膜结构与铁艺工程定制安装',
+  slogan: '上海胜步铁艺有限公司 · 膜结构与铁艺工程定制安装',
   phone: '13341923292 / 13818512412',
   wechat: '可添加微信咨询',
-  address: '上海及周边地区承接定制工程',
+  factoryAddress: '松江区九干路301号',
+  showroomAddress: '上海市青浦区嘉松中路4485弄8号6幢114号',
   description:
-    '20多年行业经验，专注膜结构车棚、电动车车棚、铁艺楼梯、大门、电动移动门、栏杆围栏等定制工程，提供现场测量、方案设计、加工制作、安装维护一站式服务。',
+    '上海胜步楼梯有限公司、上海胜步铁艺有限公司拥有20多年行业经验，专注膜结构车棚、电动车车棚、铁艺楼梯、大门、电动移动门、栏杆围栏等定制工程，提供现场测量、方案设计、加工制作、安装维护一站式服务。',
 };
 
 export const advantages = [
