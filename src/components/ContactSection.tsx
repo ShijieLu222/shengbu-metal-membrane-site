@@ -6,6 +6,7 @@ export function ContactSection() {
   const contactItems = [
     { label: '联系电话', value: companyProfile.phone, icon: Phone },
     { label: '微信', value: companyProfile.wechat, icon: MessageCircle },
+    { label: '服务区域', value: companyProfile.serviceArea, icon: MapPin },
     { label: '工厂地址', value: companyProfile.factoryAddress, icon: MapPin },
     { label: '门店展厅', value: companyProfile.showroomAddress, icon: MapPin },
   ];
@@ -16,7 +17,7 @@ export function ContactSection() {
         <SectionHeading
           eyebrow="Contact"
           title="把尺寸和现场照片发来，先沟通方案"
-          description="可先发送现场照片、尺寸、安装位置和期望样式，我们根据场地情况沟通膜结构、楼梯、大门、栏杆等定制方案。"
+          description="仅承接江浙沪区域项目。可先发送现场照片、尺寸、安装位置和期望样式，我们根据场地情况沟通膜结构、楼梯、大门、栏杆等定制方案。"
         />
 
         <div className="border border-ink/10 bg-white p-6">
