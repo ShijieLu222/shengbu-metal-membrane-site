@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import { Maximize2, X } from 'lucide-react';
 import { categoryFilters, products, type ProductCategory } from '../data/products';
 import { SectionHeading } from './SectionHeading';
@@ -45,11 +46,17 @@ export function ProductGallery() {
           ))}
         </div>
 
-        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-          {filteredProducts.map((product) => (
-            <article
+        <motion.div layout className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <AnimatePresence mode="popLayout">
+            {filteredProducts.map((product, index) => (
+            <motion.article
               key={product.id}
-              className="group overflow-hidden border border-ink/10 bg-white"
+              layout
+              initial={{ opacity: 0, y: 18 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.98 }}
+              transition={{ duration: 0.32, delay: index * 0.035 }}
+              className="group overflow-hidden border border-ink/10 bg-white transition-shadow duration-300 hover:shadow-sharp"
             >
               <button
                 type="button"
@@ -61,6 +68,7 @@ export function ProductGallery() {
                   alt={product.title}
                   className="h-full w-full object-cover grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
                 />
+                <span className="absolute inset-x-0 bottom-0 h-px origin-left scale-x-0 bg-paper/80 transition-transform duration-500 group-hover:scale-x-100" />
                 <span className="absolute right-4 top-4 grid h-10 w-10 place-items-center bg-paper/92 text-ink opacity-0 transition group-hover:opacity-100">
                   <Maximize2 className="h-4 w-4" />
                 </span>
@@ -84,14 +92,25 @@ export function ProductGallery() {
                   ))}
                 </div>
               </div>
-            </article>
-          ))}
-        </div>
+            </motion.article>
+            ))}
+          </AnimatePresence>
+        </motion.div>
       </div>
 
       {selectedProduct ? (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-ink/86 p-4">
-          <div className="relative max-h-[92vh] w-full max-w-5xl overflow-hidden bg-paper shadow-sharp">
+        <motion.div
+          className="fixed inset-0 z-50 grid place-items-center bg-ink/86 p-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          <motion.div
+            className="relative max-h-[92vh] w-full max-w-5xl overflow-hidden bg-paper shadow-sharp"
+            initial={{ opacity: 0, y: 18, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.24 }}
+          >
             <button
               type="button"
               onClick={() => setSelectedProductId(null)}
@@ -116,8 +135,8 @@ export function ProductGallery() {
                 {selectedProduct.description}
               </p>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       ) : null}
     </section>
   );

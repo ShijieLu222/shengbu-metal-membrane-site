@@ -17,14 +17,18 @@ const featureIcons = [
 export function HeroSection() {
   return (
     <section className="relative min-h-[calc(100vh-4rem)] overflow-hidden bg-ink text-paper">
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-45 grayscale"
+      <motion.div
+        className="absolute -inset-8 bg-cover bg-center opacity-45 grayscale"
+        animate={{ scale: [1, 1.05, 1], x: [0, -18, 0] }}
+        transition={{ duration: 26, repeat: Infinity, ease: 'easeInOut' }}
         style={{
           backgroundImage:
             'url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85)',
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/82 to-ink/35" />
+      <div className="hero-line-field absolute inset-0 opacity-35" />
+      <div className="hero-scan absolute inset-y-0 left-0 w-px bg-paper/35" />
 
       <div className="relative mx-auto flex min-h-[calc(100vh-4rem)] max-w-7xl flex-col justify-between px-4 py-14 sm:px-6 lg:px-8">
         <motion.div
@@ -80,6 +84,37 @@ export function HeroSection() {
               </span>
             ))}
           </div>
+        </div>
+
+        <div className="mt-8 overflow-hidden border-y border-paper/12 py-3">
+          <motion.div
+            className="flex w-max gap-8 text-xs uppercase tracking-[0.24em] text-paper/50"
+            animate={{ x: ['0%', '-50%'] }}
+            transition={{ duration: 28, repeat: Infinity, ease: 'linear' }}
+          >
+            {[
+              '膜结构车棚',
+              '电动车车棚',
+              '旋转楼梯',
+              '铁艺大门',
+              '电动伸缩门',
+              '栏杆围栏',
+              '现场测量',
+              '定制安装',
+              '膜结构车棚',
+              '电动车车棚',
+              '旋转楼梯',
+              '铁艺大门',
+              '电动伸缩门',
+              '栏杆围栏',
+              '现场测量',
+              '定制安装',
+            ].map((item, index) => (
+              <span key={`${item}-${index}`} className="shrink-0">
+                {item}
+              </span>
+            ))}
+          </motion.div>
         </div>
       </div>
     </section>
