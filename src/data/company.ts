@@ -1,12 +1,13 @@
-import { BadgeCheck, Factory, Hammer, ShieldCheck } from 'lucide-react';
+import { BadgeCheck, Factory, Hammer, Ruler, ShieldCheck } from 'lucide-react';
 
 export const companyProfile = {
   name: '上海胜步楼梯有限公司',
   shortName: '胜步铁艺',
   slogan: '上海胜步铁艺有限公司 · 膜结构与铁艺工程定制安装',
-  phone: '13341923292 / 13818512412',
-  wechat: '可添加微信咨询',
+  phone: '13341923292 / 13818512412 / 17721093282',
+  wechat: '13341923292 / 13818512412 / 17721093282',
   serviceArea: '江浙沪区域',
+  measuringFee: '上海地区免费，江浙其余地区量尺寸费用100元',
   factoryAddress: '松江区九干路301号',
   showroomAddress: '上海市青浦区嘉松中路4485弄8号6幢114号',
   description:
@@ -23,6 +24,11 @@ export const advantages = [
     title: '定制加工',
     description: '围绕材料、结构、颜色和尺寸做定制，兼顾实用与外观。',
     icon: Factory,
+  },
+  {
+    title: '上门量尺',
+    description: '上海地区免费量尺寸，江浙其余地区量尺寸费用100元。',
+    icon: Ruler,
   },
   {
     title: '专业安装',

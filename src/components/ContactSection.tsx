@@ -1,4 +1,4 @@
-import { MapPin, MessageCircle, Phone } from 'lucide-react';
+import { MapPin, MessageCircle, Phone, Ruler } from 'lucide-react';
 import { companyProfile } from '../data/company';
 import { SectionHeading } from './SectionHeading';
 
@@ -7,6 +7,7 @@ export function ContactSection() {
     { label: '联系电话', value: companyProfile.phone, icon: Phone },
     { label: '微信', value: companyProfile.wechat, icon: MessageCircle },
     { label: '服务区域', value: companyProfile.serviceArea, icon: MapPin },
+    { label: '量尺寸费用', value: companyProfile.measuringFee, icon: Ruler },
     { label: '工厂地址', value: companyProfile.factoryAddress, icon: MapPin },
     { label: '门店展厅', value: companyProfile.showroomAddress, icon: MapPin },
   ];
