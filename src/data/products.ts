@@ -89,8 +89,8 @@ export const products: Product[] = [
     categoryLabel: '电动移动门',
     description: '适合工厂、仓库、停车场出入口，可配置电机和门禁系统。',
     image:
-      'https://www.lqrongfeng.com/upfile/images/2021/03/24/16165750889595259.jpg',
-    sourceUrl: 'https://www.lqrongfeng.com/product_article.asp?id=1810',
+      'https://www.superstrong.co.in/images/product/Telescopic%20Gate.jpg',
+    sourceUrl: 'https://www.superstrong.co.in/',
     tags: ['电机驱动', '厂区出入口', '门禁'],
   },
   {

@@ -16,6 +16,10 @@
 - 山东天硕帽顶式膜结构车棚: https://www.168mjg.com/tingchepeng/32.html
 - 山东天硕膜结构自行车棚: https://www.168mjg.com/tingchepeng/33.html
 - 临朐荣丰铁艺大门/护栏/电动伸缩门: https://www.lqrongfeng.com/product_article.asp?id=1810
+- Super Strong Telescopic Sliding Gate: https://www.superstrong.co.in/images/product/Telescopic%20Gate.jpg
+- Super Strong Sliding Gate: https://www.superstrong.co.in/images/product/Sliding%20Gate.jpeg
+- Super Strong Motorised Sliding Gate 1: https://www.superstrong.co.in/images/product/Motorise%20Slididng%20Gate.jpeg
+- Super Strong Motorised Sliding Gate 2: https://www.superstrong.co.in/images/product/Motorise%20Sliding%20Gate.jpeg
 - WilliamArchi Car Parking Canopy: https://www.williamarchi.com/product/car-parking-canopy.html
 - BDiR Membrane Parking Shade Article: https://www.bdir.com/es/noticias/las-caracteristicas-basicas-y-ventajas-de-estructura-membrana-sombra-de-estacionamiento
 - Pinterest Bicycle Parking Shelter Reference: https://au.pinterest.com/pin/bicycle-parking-design-with-awning--422281211880503/
@@ -32,6 +36,25 @@
 - 供应商明确授权使用的案例图。
 - 可商用图库素材，并保留授权凭证。
 - 由自家案例图或授权参考图重新拍摄/制作的图片。
+
+## 电动移动门候选图
+
+当前页面已先替换掉带明显水印的电动伸缩门图，改用 `Super Strong Telescopic Sliding Gate` 作为临时展示图。以下候选图均未观察到明显大水印，但正式上线前仍建议确认可商用授权或联系素材来源获取书面许可。
+
+1. `https://www.superstrong.co.in/images/product/Telescopic%20Gate.jpg`
+   - 厂区大门场景，门体完整，适合作为“厂区电动伸缩门/滑动门”主图。
+2. `https://www.superstrong.co.in/images/product/Sliding%20Gate.jpeg`
+   - 滑动门产品图，可作为候选补充。
+3. `https://www.superstrong.co.in/images/product/Motorise%20Slididng%20Gate.jpeg`
+   - 电动滑动门候选图，文件名保留来源站点原拼写。
+4. `https://www.superstrong.co.in/images/product/Motorise%20Sliding%20Gate.jpeg`
+   - 电动滑动门候选图，可与上一张对比挑选。
+5. `https://palisada.rs/teleskopska-klizna-kapija-standard/`
+   - 页面中有白色厂区伸缩/滑动门案例图，构图干净，但未提取到稳定图片直链。
+6. `https://m.made-in-china.com/product/Modern-Stainless-Steel-Gate-Design-Trackless-Steel-Folding-Gate-Designs-Philippines-1960782105.html`
+   - 黑色厂区滑动门案例，视觉接近当前页面风格；页面直接访问会重定向，需后续人工确认授权。
+7. `https://retractable-gate.en.made-in-china.com/product/OZVAEunMJTct/China-Automatic-Factory-Entrance-Folding-Gate.html`
+   - 银灰色伸缩门案例，产品形态更接近原图；当前命令行访问会返回验证码页，不能作为稳定热链。
 
 ## 替换素材建议
 
