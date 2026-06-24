@@ -66,7 +66,7 @@ export function ProductGallery() {
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="h-full w-full object-cover grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                  className="h-full w-full object-cover brightness-75 saturate-110 transition duration-500 group-hover:scale-105 group-hover:brightness-100"
                 />
                 <span className="absolute inset-x-0 bottom-0 h-px origin-left scale-x-0 bg-paper/80 transition-transform duration-500 group-hover:scale-x-100" />
                 <span className="absolute right-4 top-4 grid h-10 w-10 place-items-center bg-paper/92 text-ink opacity-0 transition group-hover:opacity-100">

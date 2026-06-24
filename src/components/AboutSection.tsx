@@ -22,7 +22,7 @@ export function AboutSection() {
             <img
               src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85"
               alt="钢结构施工现场"
-              className="h-full w-full object-cover grayscale transition duration-700 hover:scale-105 hover:grayscale-0"
+              className="h-full w-full object-cover brightness-75 saturate-110 transition duration-700 hover:scale-105 hover:brightness-100"
             />
           </motion.div>
         </div>

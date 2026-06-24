@@ -18,7 +18,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-[calc(100vh-4rem)] overflow-hidden bg-ink text-paper">
       <motion.div
-        className="absolute -inset-8 bg-cover bg-center opacity-45 grayscale"
+        className="absolute -inset-8 bg-cover bg-center opacity-50 brightness-75 saturate-110"
         animate={{ scale: [1, 1.05, 1], x: [0, -18, 0] }}
         transition={{ duration: 26, repeat: Infinity, ease: 'easeInOut' }}
         style={{
