@@ -15,6 +15,8 @@
 
 - 山东天硕帽顶式膜结构车棚: https://www.168mjg.com/tingchepeng/32.html
 - 山东天硕膜结构自行车棚: https://www.168mjg.com/tingchepeng/33.html
+- HBK Membrane Structure Carport: https://www.hbkconstruction.com/Uploads/image/20240607/1717725932471573.png
+- Garden.eco Modern Carport Awning: https://www.garden.eco/wp-content/uploads/2025/04/image0_carport-awning-ideas_carport-awning-ideas.jpg
 - 临朐荣丰铁艺大门/护栏/电动伸缩门: https://www.lqrongfeng.com/product_article.asp?id=1810
 - Super Strong Telescopic Sliding Gate: https://www.superstrong.co.in/images/product/Telescopic%20Gate.jpg
 - Super Strong Sliding Gate: https://www.superstrong.co.in/images/product/Sliding%20Gate.jpeg
@@ -55,6 +57,19 @@
    - 黑色厂区滑动门案例，视觉接近当前页面风格；页面直接访问会重定向，需后续人工确认授权。
 7. `https://retractable-gate.en.made-in-china.com/product/OZVAEunMJTct/China-Automatic-Factory-Entrance-Folding-Gate.html`
    - 银灰色伸缩门案例，产品形态更接近原图；当前命令行访问会返回验证码页，不能作为稳定热链。
+
+## 车棚候选图
+
+当前页面已替换掉膜结构车棚的旧占位图和现代铝合金车棚的风景占位图，改用更贴近产品的车棚实景图。以下候选图未观察到明显大水印，但正式上线前仍建议确认可商用授权或联系素材来源获取书面许可。
+
+1. `https://www.hbkconstruction.com/Uploads/image/20240607/1717725932471573.png`
+   - 白色张拉膜停车棚实景，钢结构立柱和膜面形态完整，适合作为“膜结构车棚”主图。
+2. `https://www.garden.eco/wp-content/uploads/2025/04/image0_carport-awning-ideas_carport-awning-ideas.jpg`
+   - 现代住宅铝合金/透明顶车棚实景，适合作为“现代铝合金车棚”主图。
+3. `https://cdn.medcom.id/dynamic/content/2026/02/05/1803351/Rq6OLugQsh.jpg`
+   - 白色膜结构停车棚候选图，浏览结果可见但 CDN 直链对命令行返回 HTML，不建议作为页面热链。
+4. `https://canopyworld.in/cantilever-car-parking-tensile-structures/`
+   - 膜结构停车棚案例页面，视觉质量较好，但图片通过站点脚本加载，未提取到稳定图片直链。
 
 ## 替换素材建议
 

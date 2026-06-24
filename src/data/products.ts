@@ -36,8 +36,9 @@ export const products: Product[] = [
     categoryLabel: '膜结构车棚',
     description: '白色张拉膜配合钢结构立柱，适合园区、厂房、商业停车区。',
     image:
-      'https://www.168mjg.com/static/upload/image/20220819/1660874464531924.jpg',
-    sourceUrl: 'https://www.168mjg.com/tingchepeng/32.html',
+      'https://www.hbkconstruction.com/Uploads/image/20240607/1717725932471573.png',
+    sourceUrl:
+      'https://www.hbkconstruction.com/new/Four-common-forms-of-membrane-structure.html',
     tags: ['张拉膜', '停车棚', '定制跨度'],
   },
   {
@@ -111,7 +112,8 @@ export const products: Product[] = [
     categoryLabel: '膜结构车棚',
     description: '适合住宅和商铺停车位，线条简洁，可做透明板或膜材顶面。',
     image:
-      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85',
+      'https://www.garden.eco/wp-content/uploads/2025/04/image0_carport-awning-ideas_carport-awning-ideas.jpg',
+    sourceUrl: 'https://www.garden.eco/carport-awning-ideas',
     tags: ['雨棚', '车位', '现代风格'],
   },
 ];
